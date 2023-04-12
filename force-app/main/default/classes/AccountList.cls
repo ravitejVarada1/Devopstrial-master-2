@@ -12,7 +12,7 @@ public without sharing class  AccountList { //comment new for push new new one
        List<Account> res =  Database.query(query);
        return res;
     }
-//function to create contact
+//function to create contact - Ravi
     @AuraEnabled
     public static String createContact(Contact con) {
         System.debug(con);
